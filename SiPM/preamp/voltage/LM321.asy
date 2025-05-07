@@ -1,0 +1,28 @@
+Version 4
+SymbolType CELL
+LINE Normal 64 0 -64 -80
+LINE Normal -64 -80 -64 0
+LINE Normal -64 0 -64 80
+LINE Normal -64 80 64 0
+LINE Normal 0 -80 0 -40
+LINE Normal 0 80 0 40
+WINDOW 0 64 -16 Bottom 2
+WINDOW 3 -64 0 Right 2
+SYMATTR Value LM321
+SYMATTR Prefix X
+SYMATTR ModelFile ./LM321.MOD
+PIN -64 -32 LEFT 8
+PINATTR PinName +IN
+PINATTR SpiceOrder 1
+PIN -64 32 LEFT 8
+PINATTR PinName -IN
+PINATTR SpiceOrder 2
+PIN 0 -80 LEFT 8
+PINATTR PinName +V
+PINATTR SpiceOrder 3
+PIN 0 80 LEFT 8
+PINATTR PinName -V
+PINATTR SpiceOrder 4
+PIN 64 0 TOP 8
+PINATTR PinName OUT
+PINATTR SpiceOrder 5
