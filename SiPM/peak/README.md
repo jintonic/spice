@@ -12,3 +12,9 @@ The input signal is the output of a pre-amp of a scintillation detector. It is a
 The model of BAT85 diode is from <http://bordodynov.ltwiki.org/>. It is pasted as a line of SPICE code in the schematic file. The standard diode symbol in the schematics is associated with the model by renaming its value to be the model's name (BAT85).
 
 The model of 2N7000 transistor is from <https://ltwiki.org/index.php?title=Standard.mos>.
+
+The model of TPH2502 is from <https://s-audio.systems/blog/spicemodels/?lang=en>.
+
+The model of [OPA354] is from <https://www.ti.com/product/OPA354#design-development>.
+
+[OPA354]: https://www.ti.com/product/OPA354
